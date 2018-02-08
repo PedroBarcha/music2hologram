@@ -35,17 +35,7 @@ public class LineVisualizerActivity extends BaseActivity {
         lineVisualizer.setStrokeWidth(1);
 
         // Set you media player to the visualizer.
-        lineVisualizer.setPlayer(mediaPlayer);
-    }
-
-    public void replay(View view) {
-        if (mediaPlayer != null) {
-            mediaPlayer.seekTo(0);
-        }
-    }
-
-    public void playPause(View view) {
-        playPauseBtnClicked((ImageButton) view);
+        lineVisualizer.setPlayer();
     }
 
     @Override

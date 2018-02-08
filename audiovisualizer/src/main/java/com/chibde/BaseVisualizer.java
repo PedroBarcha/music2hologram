@@ -53,7 +53,7 @@ abstract public class BaseVisualizer extends View {
         init(attrs);
         init();
     }
-//
+
 //    @Override
 //    protected void onDestroy() {
 //        super.onDestroy();
@@ -78,7 +78,7 @@ abstract public class BaseVisualizer extends View {
         this.paint.setColor(this.color);
     }
 
-    public void setPlayer(MediaPlayer mediaPlayer) {
+    public void setPlayer() {
         visualizer = new Visualizer(0);
         visualizer.setCaptureSize(Visualizer.getCaptureSizeRange()[1]);
 
@@ -99,7 +99,26 @@ abstract public class BaseVisualizer extends View {
         visualizer.setEnabled(true);
     }
 
+    protected void onStop() {
+        if (visualizer == null) {
+            return;
+        }
+        visualizer.setEnabled(false);
+        visualizer.release();
+    }
+    protected void onDestroy() {
+        if (visualizer == null) {
+            return;
+        }
+        visualizer.setEnabled(false);
+        visualizer.release();
+    }
+
     public void release() {
+        if (visualizer == null) {
+            return;
+        }
+        visualizer.setEnabled(false);
         visualizer.release();
     }
 

@@ -38,8 +38,6 @@ abstract public class BaseActivity extends AppCompatActivity {
             Manifest.permission.RECORD_AUDIO
     };
 
-    protected MediaPlayer mediaPlayer;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,18 +67,12 @@ abstract public class BaseActivity extends AppCompatActivity {
 
     private void setPlayer() {
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
-        mediaPlayer = MediaPlayer.create(this, R.raw.red_e);
-        mediaPlayer.setLooping(false);
         init();
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        if (mediaPlayer != null && mediaPlayer.isPlaying()) {
-            mediaPlayer.stop();
-            mediaPlayer.release();
-        }
     }
 
     @Override
@@ -96,22 +88,6 @@ abstract public class BaseActivity extends AppCompatActivity {
                 } else {
                     this.finish();
                 }
-        }
-    }
-
-    public void playPauseBtnClicked(ImageButton btnPlayPause) {
-        if (mediaPlayer != null) {
-            if (mediaPlayer.isPlaying()) {
-                mediaPlayer.pause();
-                btnPlayPause.setImageDrawable(ContextCompat.getDrawable(
-                        this,
-                        R.drawable.ic_play_red_48dp));
-            } else {
-                mediaPlayer.start();
-                btnPlayPause.setImageDrawable(ContextCompat.getDrawable(
-                        this,
-                        R.drawable.ic_pause_red_48dp));
-            }
         }
     }
 

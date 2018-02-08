@@ -29,18 +29,9 @@ public class CircleBarVisualizerActivity extends BaseActivity {
     protected void init() {
         CircleBarVisualizer circleBarVisualizer = findViewById(R.id.visualizer);
         circleBarVisualizer.setColor(ContextCompat.getColor(this, R.color.colorAccent));
-        circleBarVisualizer.setPlayer(mediaPlayer);
+        circleBarVisualizer.setPlayer();
     }
 
-    public void replay(View view) {
-        if (mediaPlayer != null) {
-            mediaPlayer.seekTo(0);
-        }
-    }
-
-    public void playPause(View view) {
-        playPauseBtnClicked((ImageButton) view);
-    }
 
     @Override
     protected int getLayout() {

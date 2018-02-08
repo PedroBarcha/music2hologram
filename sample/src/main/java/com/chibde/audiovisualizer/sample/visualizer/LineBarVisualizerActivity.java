@@ -36,17 +36,7 @@ public class LineBarVisualizerActivity extends BaseActivity {
         lineBarVisualizer.setDensity(90f);
 
         // Set your media player to the visualizer.
-        lineBarVisualizer.setPlayer(mediaPlayer);
-    }
-
-    public void replay(View view) {
-        if (mediaPlayer != null) {
-            mediaPlayer.seekTo(0);
-        }
-    }
-
-    public void playPause(View view) {
-        playPauseBtnClicked((ImageButton) view);
+        lineBarVisualizer.setPlayer();
     }
 
     @Override

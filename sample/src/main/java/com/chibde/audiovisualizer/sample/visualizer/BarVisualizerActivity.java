@@ -36,17 +36,7 @@ public class BarVisualizerActivity extends BaseActivity {
         barVisualizer.setDensity(70);
 
         // Set your media player to the visualizer.
-        barVisualizer.setPlayer(mediaPlayer);
-    }
-
-    public void replay(View view) {
-        if (mediaPlayer != null) {
-            mediaPlayer.seekTo(0);
-        }
-    }
-
-    public void playPause(View view) {
-        playPauseBtnClicked((ImageButton) view);
+        barVisualizer.setPlayer();
     }
 
     @Override
