@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--tools:context="com.example.banshee.musicvisualizerhologram.HologramFragment">-->
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/lineBt"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="90dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="32dp"
+            android:onClick="line"
+            android:text="@string/line_visualizer"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/barBt"
+            app:layout_constraintTop_toBottomOf="@+id/lineBt"
+            android:layout_marginTop="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="90dp"
+            android:layout_width="match_parent"
+            android:onClick="bar"
+            android:text="@string/bar_visualizer"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/circleBt"
+            app:layout_constraintTop_toBottomOf="@+id/barBt"
+            android:layout_marginTop="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="90dp"
+            android:layout_width="match_parent"
+            android:onClick="circle"
+            android:text="@string/circle_visualizer"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/circleBarBt"
+            app:layout_constraintTop_toBottomOf="@+id/circleBt"
+            android:layout_marginTop="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="90dp"
+            android:layout_width="match_parent"
+            android:onClick="circleBar"
+            android:text="@string/circle_bar_visualizer"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/lineBarBt"
+            app:layout_constraintTop_toBottomOf="@+id/circleBarBt"
+            android:layout_marginTop="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="90dp"
+            android:layout_width="match_parent"
+            android:onClick="lineBar"
+            android:text="@string/line_bar_visualizer"
+            android:textColor="@color/white"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

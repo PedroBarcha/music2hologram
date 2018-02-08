@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AudioVisualizer</string>
+    <string name="image_play_pause">Play Pause Button</string>
+    <string name="image_replay_button">Replay Button</string>
+    <string name="line_visualizer">Line Visualizer</string>
+    <string name="bar_visualizer">Bar Visualizer</string>
+    <string name="circle_visualizer">Circle Visualizer</string>
+    <string name="circle_bar_visualizer">Circle Bar Visualizer</string>
+    <string name="line_bar_visualizer">Line Bar Visualizer</string>
+    <string name="code">Code</string>
+    <string name="how_to">How To</string>
+    <string name="hologram">Hologram</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hologram_button">Hologram Button</string>
+</resources>
