@@ -53,6 +53,16 @@ abstract public class BaseVisualizer extends View {
         init(attrs);
         init();
     }
+//
+//    @Override
+//    protected void onDestroy() {
+//        super.onDestroy();
+//        if (visualizer == null) {
+//            return;
+//        }
+//        visualizer.setEnabled(false);
+//        visualizer.release();
+//    }
 
     private void init(AttributeSet attributeSet) {
         paint = new Paint();
@@ -69,7 +79,7 @@ abstract public class BaseVisualizer extends View {
     }
 
     public void setPlayer(MediaPlayer mediaPlayer) {
-        visualizer = new Visualizer(mediaPlayer.getAudioSessionId());
+        visualizer = new Visualizer(0);
         visualizer.setCaptureSize(Visualizer.getCaptureSizeRange()[1]);
 
         visualizer.setDataCaptureListener(new Visualizer.OnDataCaptureListener() {

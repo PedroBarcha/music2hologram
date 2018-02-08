@@ -17,6 +17,7 @@ package com.chibde.audiovisualizer.sample;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -67,6 +68,7 @@ abstract public class BaseActivity extends AppCompatActivity {
     }
 
     private void setPlayer() {
+        setVolumeControlStream(AudioManager.STREAM_MUSIC);
         mediaPlayer = MediaPlayer.create(this, R.raw.red_e);
         mediaPlayer.setLooping(false);
         init();
