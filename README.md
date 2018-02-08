@@ -15,7 +15,8 @@
 License
 =======
 Copyright 2018 Pedro Barcha
-This program is a variato of Gautam Chibde's Android Audio Visualizer, available at:
+
+This program is a variaton of Gautam Chibde's Android Audio Visualizer, available at:
 https://github.com/GautamChibde/android-audio-visualizer
 
 Licensed under the Apache License, Version 2.0 (the "License");
