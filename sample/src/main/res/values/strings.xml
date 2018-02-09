@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AudioVisualizer</string>
+    <string name="app_name">Music2Hologram</string>
     <string name="image_play_pause">Play Pause Button</string>
     <string name="image_replay_button">Replay Button</string>
     <string name="line_visualizer">Line Visualizer</string>

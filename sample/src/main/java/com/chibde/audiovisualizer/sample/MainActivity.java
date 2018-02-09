@@ -26,6 +26,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.chibde.audiovisualizer.sample.visualizer.BarVisualizerActivity;
 import com.chibde.audiovisualizer.sample.visualizer.CircleBarVisualizerActivity;
@@ -68,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
     }
 
     public void line(View view) {

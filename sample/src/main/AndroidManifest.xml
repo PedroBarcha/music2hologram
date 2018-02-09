@@ -21,31 +21,36 @@
         </activity>
         <activity
             android:name=".visualizer.LineVisualizerActivity"
-            android:label="@string/line_visualizer">
-            <meta-data
+            android:label="@string/line_visualizer"
+            android:screenOrientation="landscape">
+        <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>
         <activity
             android:name=".visualizer.BarVisualizerActivity"
-            android:label="@string/bar_visualizer">
-            <meta-data
+            android:label="@string/bar_visualizer"
+            android:screenOrientation="landscape">
+        <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>
         <activity
             android:name=".visualizer.CircleVisualizerActivity"
-            android:label="@string/circle_visualizer">
+            android:label="@string/circle_visualizer"
+            android:screenOrientation="landscape">
         </activity>
         <activity
             android:name=".visualizer.CircleBarVisualizerActivity"
-            android:label="@string/circle_bar_visualizer">
+            android:label="@string/circle_bar_visualizer"
+            android:screenOrientation="landscape">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>
         <activity android:name=".visualizer.LineBarVisualizerActivity"
-            android:label="@string/line_bar_visualizer">
+            android:label="@string/line_bar_visualizer"
+            android:screenOrientation="landscape">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>

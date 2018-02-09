@@ -24,6 +24,8 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.ImageButton;
 
 /**
@@ -42,7 +44,10 @@ abstract public class BaseActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getLayout() != 0) {
-            setContentView(getLayout());
+
+//            View v = LayoutInflater.from(this).inflate(R.layout.ib, null);
+//            viewGroup.addView(v);
+
         } else {
             throw new NullPointerException("Provide layout file for the activity");
         }

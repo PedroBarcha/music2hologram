@@ -16,60 +16,64 @@
         tools:ignore="MissingConstraints">
 
         <Button
-            android:id="@+id/lineBt"
-            android:background="@color/colorPrimaryDark"
-            android:layout_height="110dp"
-            android:layout_width="match_parent"
-            android:layout_marginTop="20dp"
-            android:onClick="line"
-            android:text="@string/line_visualizer"
-            android:textColor="@color/white"
+            android:id="@+id/circleBarBt"
             app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="0dp" />
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:text="@string/circle_bar_visualizer"
+            android:textColor="@color/white"
+            android:onClick="circleBar"/>
+
+
+        <Button
+            android:id="@+id/lineBt"
+            app:layout_constraintTop_toBottomOf="@+id/circleBarBt"
+            android:layout_marginTop="2dp"
+            android:background="@color/gray"
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:text="@string/bar_visualizer"
+            android:textColor="@color/white"/>
+            <!--android:onClick="bar"-->
+
 
         <Button
             android:id="@+id/barBt"
             app:layout_constraintTop_toBottomOf="@+id/lineBt"
             android:layout_marginTop="2dp"
-            android:background="@color/colorPrimaryDark"
-            android:layout_height="110dp"
+            android:background="@color/gray"
+            android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:onClick="bar"
             android:text="@string/bar_visualizer"
             android:textColor="@color/white"/>
+            <!--android:onClick="bar"-->
+
 
         <Button
             android:id="@+id/circleBt"
             app:layout_constraintTop_toBottomOf="@+id/barBt"
             android:layout_marginTop="2dp"
-            android:background="@color/colorPrimaryDark"
-            android:layout_height="110dp"
+            android:background="@color/gray"
+            android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:onClick="circle"
             android:text="@string/circle_visualizer"
             android:textColor="@color/white"/>
+            <!--android:onClick="circle"-->
 
-        <Button
-            android:id="@+id/circleBarBt"
-            app:layout_constraintTop_toBottomOf="@+id/circleBt"
-            android:layout_marginTop="2dp"
-            android:background="@color/colorPrimaryDark"
-            android:layout_height="110dp"
-            android:layout_width="match_parent"
-            android:onClick="circleBar"
-            android:text="@string/circle_bar_visualizer"
-            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/lineBarBt"
-            app:layout_constraintTop_toBottomOf="@+id/circleBarBt"
+            app:layout_constraintTop_toBottomOf="@+id/circleBt"
             android:layout_marginTop="2dp"
-            android:background="@color/colorPrimaryDark"
-            android:layout_height="110dp"
+            android:background="@color/gray"
+            android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:onClick="lineBar"
             android:text="@string/line_bar_visualizer"
             android:textColor="@color/white"/>
+            <!--android:onClick="lineBar"-->
+
 
     </android.support.constraint.ConstraintLayout>
 
