@@ -17,8 +17,6 @@ The app is still under development. Currently the app is capable of providing mu
 
 <br/>
 <br/>
-  
-    
 <p align="center"> 
   <img src="https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif" width="50%" height="50%">
 </p>
