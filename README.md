@@ -3,6 +3,7 @@ along with a simple Do-It-Yourself acetate pyramid. The program analyzes
 the phone’s current audio output and provided enjoying displays based on its waveform.
 The user should put the pyramid on the center of these displays, in order to get a
 hologram simulation.
+
 Currently the app is capable of providing music visualization effects, but they are still not properly displayed for being used along with the pyramid. 
 
 # Demo
@@ -11,7 +12,9 @@ Currently the app is capable of providing music visualization effects, but they 
 
 Example of one of the available audio visualization forms
 
+
 ![Alt text](https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif)
+
 Example of a pyramid Hologram displaying a [song videoclip](https://www.youtube.com/watch?v=IjamrgiUeCo)
 
 # Builgind the Pyramid
