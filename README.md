@@ -1,12 +1,13 @@
 The project is a music visualizer Android (15+) application, that should be used
-along with a simple Do-It-Yourself acetate pyramid. The program is capable of analyzing
-the phone’s current audio output and provide enjoying displays based on its waveform.
+along with a simple Do-It-Yourself acetate pyramid. The program analyzes
+the phone’s current audio output and provided enjoying displays based on its waveform.
 The user should put the pyramid on the center of these displays, in order to get a
 hologram simulation.
 
 # Demo
 
-![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511428471/giphy_6_usdiet.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511431630/giphy_10_yye0fe.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511429199/giphy_7_usq2vh.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511427632/giphy_5_vixwer.gif)
+![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511431630/giphy_10_yye0fe.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511429199/giphy_7_usq2vh.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511427632/giphy_5_vixwer.gif) ![Alt text]
+(https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif)
 
 # Builgind the Pyramid
 The user needs to print the pyramid model (which is provided in the app) on an A4
