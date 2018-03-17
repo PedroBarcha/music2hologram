@@ -22,10 +22,7 @@ acetate sheet, cut it, fold it and it is done. The whole process should cost no 
 euro in a printer store and less than thirty minutes to build it.
 The complete step-by-step (along with the pyramid template) can be found in the app or in this [tutorial](http://www.instructables.com/id/No-CD-case-no-tape-3D-hologram-pyramid-the-quickes/).
 
-<img src="https://cdn.instructables.com/FLA/PI8H/IFSHAZ74/FLAPI8HIFSHAZ74.LARGE.jpg" width="40%" height="40%">
-
-
-![](https://cdn.instructables.com/FLA/PI8H/IFSHAZ74/FLAPI8HIFSHAZ74.LARGE.jpg =512x344) 
+<img src="https://cdn.instructables.com/FLA/PI8H/IFSHAZ74/FLAPI8HIFSHAZ74.LARGE.jpg" width="60%" height="60%">
 What you need.
 
 License
