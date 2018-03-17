@@ -1,16 +1,25 @@
-
-[![Build Status](https://travis-ci.org/GautamChibde/android-audio-visualizer.svg?branch=master)](https://travis-ci.org/GautamChibde/android-audio-visualizer) [![codebeat badge](https://codebeat.co/badges/0f34e433-9e0b-44a4-90da-b53d644848b9)](https://codebeat.co/projects/github-com-gautamchibde-android-audio-visualizer-master) [ ![Download](https://api.bintray.com/packages/gautamchibde/Audio-Visualizer/audiovisualizer/images/download.svg) ](https://bintray.com/gautamchibde/Audio-Visualizer/audiovisualizer/_latestVersion) [![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
+The project is a music visualizer Android (15+) application, that should be used
+along with a simple Do-It-Yourself acetate pyramid. The program is capable of analyzing
+the phone’s current audio output and provide enjoying displays based on its waveform.
+The user should put the pyramid on the center of these displays, in order to get a
+hologram simulation.
 
 # Demo
 
 ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511428471/giphy_6_usdiet.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511431630/giphy_10_yye0fe.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511429199/giphy_7_usq2vh.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511427632/giphy_5_vixwer.gif)
 
-# Visualizers
-* [LineVisualizer](https://github.com/GautamChibde/android-audio-visualizer/wiki/Line-Visualizer)
-* [BarVisualizer](https://github.com/GautamChibde/android-audio-visualizer/wiki/Bar-Visualizer)
-* [CircleVisualizer](https://github.com/GautamChibde/android-audio-visualizer/wiki/Circle-Visualizer)
-* [Circle Bar Visualizer](https://github.com/GautamChibde/android-audio-visualizer/wiki/Circle-Bar-Visualizer)
-* [Line Bar Visualizer](https://github.com/GautamChibde/android-audio-visualizer/wiki/Line-Bar-Visualizer)
+# Builgind the Pyramid
+The user needs to print the pyramid model (which is provided in the app) on an A4
+acetate sheet, cut it, fold it and it is done. The whole process should cost no more than 1
+euro in a printer store and less than thirty minutes to build it.
+The complete step-by-step can be found in the app or in this [tutorial](http://www.instructables.com/id/No-CD-case-no-tape-3D-hologram-pyramid-the-quickes/).
+
+phone pyramid template
+
+
+built phone pyramid.
+
+
 
 License
 =======
