@@ -36,6 +36,7 @@ The complete step-by-step (along with the pyramid template) can be found in the 
 <p align="center">
   What you need.
 </p>
+
 License
 =======
 Copyright 2018 Pedro Barcha
