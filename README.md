@@ -8,10 +8,10 @@ The app is still under development. Currently the app is capable of providing mu
 
 # Demo
 
-<p align="center"> 
+<p align="center">
   <img src="http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif">
 </p>
-<p align="center"> 
+<p align="center">
   Example of one of the available audio visualization forms.<br/>
 </p>
 
@@ -19,19 +19,24 @@ The app is still under development. Currently the app is capable of providing mu
 <br/>
   
     
-    
-<img src="https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif" width="50%" height="50%">
-Example of a pyramid Hologram displaying a [song videoclip](https://www.youtube.com/watch?v=IjamrgiUeCo) (not this app).
-
+<p align="center"> 
+  <img src="https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif" width="50%" height="50%">
+</p>
+<p align="center"> 
+  Example of a pyramid Hologram displaying a [song videoclip](https://www.youtube.com/watch?v=IjamrgiUeCo) (not this app).
+</p>
 # Builgind the Pyramid
 The user needs to print the pyramid model (which is provided in the app) on an A4
 acetate sheet, cut it, fold it and it is done. The whole process should cost no more than 1
 euro in a printer store and less than thirty minutes to build it.
 The complete step-by-step (along with the pyramid template) can be found in the app or in this [tutorial](http://www.instructables.com/id/No-CD-case-no-tape-3D-hologram-pyramid-the-quickes/).
 
-<img src="https://cdn.instructables.com/FLA/PI8H/IFSHAZ74/FLAPI8HIFSHAZ74.LARGE.jpg" width="50%" height="50%">
-What you need.
-
+<p align="center">
+  <img src="https://cdn.instructables.com/FLA/PI8H/IFSHAZ74/FLAPI8HIFSHAZ74.LARGE.jpg" width="50%" height="50%">
+</p>
+<p align="center">
+  What you need.
+</p>
 License
 =======
 Copyright 2018 Pedro Barcha
