@@ -6,7 +6,7 @@ hologram simulation.
 
 # Demo
 
-![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511431630/giphy_10_yye0fe.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511429199/giphy_7_usq2vh.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif)  ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511427632/giphy_5_vixwer.gif) ![Alt text]
+![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511431630/giphy_10_yye0fe.gif) ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif) ![Alt text]
 (https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif)
 
 # Builgind the Pyramid
