@@ -4,13 +4,14 @@ the phone’s current audio output and provided enjoying displays based on its w
 The user should put the pyramid on the center of these displays, in order to get a
 hologram simulation.
 
-Currently the app is capable of providing music visualization effects, but they are still not properly displayed for being used along with the pyramid. 
+The app is still under development. Currently the app is capable of providing music visualization effects, but they are still not properly displayed for being used along with the pyramid. 
 
 # Demo
 
 ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif) 
 
 Example of one of the available audio visualization forms
+
 
 
 ![Alt text](https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif)
