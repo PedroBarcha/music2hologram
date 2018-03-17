@@ -21,10 +21,7 @@ The app is still under development. Currently the app is capable of providing mu
   <img src="https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif" width="50%" height="50%">
 </p>
 
-<p align="center">
-  [tutorial](http://www.instructables.com/id/No-CD-case-no-tape-3D-hologram-pyramid-the-quickes/).
-  Example of a pyramid Hologram displaying a [song videoclip] (https://www.youtube.com/watch?v=IjamrgiUeCo) (not the app).
-</p>
+  Example of a pyramid Hologram displaying a [song videoclip](https://www.youtube.com/watch?v=IjamrgiUeCo) (not the app).
 
 # Building the Pyramid
 The user needs to print the pyramid model (which is provided in the app) on an A4
