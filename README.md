@@ -12,7 +12,7 @@ The app is still under development. Currently the app is capable of providing mu
 
 Example of one of the available audio visualization forms
 
-
+    
 
 ![Alt text](https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif)
 
