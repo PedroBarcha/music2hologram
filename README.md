@@ -8,7 +8,7 @@ The app is still under development. Currently the app is capable of providing mu
 
 # Demo
 
-<img src="http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif">
+<p align="center"> <img src="http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif"></p>
 Example of one of the available audio visualization forms.<br/>
 <br/>
 <br/>
