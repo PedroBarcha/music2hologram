@@ -24,6 +24,7 @@ The app is still under development. Currently the app is capable of providing mu
 <p align="center">
   Example of a pyramid Hologram displaying hologram-enhanced content (not the app).
 </p>
+
 # Building the Pyramid
 The user needs to print the pyramid model (which is provided in the app) on an A4
 acetate sheet, cut it, fold it and it is done. The whole process should cost no more than 1
