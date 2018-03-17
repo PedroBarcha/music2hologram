@@ -3,23 +3,24 @@ along with a simple Do-It-Yourself acetate pyramid. The program analyzes
 the phone’s current audio output and provided enjoying displays based on its waveform.
 The user should put the pyramid on the center of these displays, in order to get a
 hologram simulation.
+Currently the app is capable of providing music visualization effects, but they are still not properly displayed for being used along with the pyramid. 
 
 # Demo
 
-![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif) ![Alt text](https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif)
+![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif) 
+Example of one of the available audio visualization forms
+
+![Alt text](https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif)
+Example of a pyramid Hologram displaying a [song videoclip](https://www.youtube.com/watch?v=IjamrgiUeCo)
 
 # Builgind the Pyramid
 The user needs to print the pyramid model (which is provided in the app) on an A4
 acetate sheet, cut it, fold it and it is done. The whole process should cost no more than 1
 euro in a printer store and less than thirty minutes to build it.
-The complete step-by-step can be found in the app or in this [tutorial](http://www.instructables.com/id/No-CD-case-no-tape-3D-hologram-pyramid-the-quickes/).
+The complete step-by-step (along with the pyramid template) can be found in the app or in this [tutorial](http://www.instructables.com/id/No-CD-case-no-tape-3D-hologram-pyramid-the-quickes/).
 
-phone pyramid template
-
-
-built phone pyramid.
-
-
+![Alt text](http://res.cloudinary.com/dkxkt5ibp/image/upload/v1521317609/what-you-need.jpg) 
+What you need.
 
 License
 =======
