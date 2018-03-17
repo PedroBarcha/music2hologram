@@ -6,7 +6,7 @@ hologram simulation.
 
 # Demo
 
-![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511431630/giphy_10_yye0fe.gif) ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif) ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif)
+![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511431630/giphy_10_yye0fe.gif) ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif) ![Alt text](https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif)
 
 # Builgind the Pyramid
 The user needs to print the pyramid model (which is provided in the app) on an A4
