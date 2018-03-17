@@ -8,8 +8,13 @@ The app is still under development. Currently the app is capable of providing mu
 
 # Demo
 
-<img src="http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif">Example of one of the available audio visualization forms.<br />
-
+<img src="http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif">
+Example of one of the available audio visualization forms.<br/>
+<br/>
+<br/>
+  
+    
+    
 <img src="https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif" width="50%" height="50%">
 Example of a pyramid Hologram displaying a [song videoclip](https://www.youtube.com/watch?v=IjamrgiUeCo) (not this app).
 
