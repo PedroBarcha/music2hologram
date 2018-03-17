@@ -8,6 +8,7 @@ Currently the app is capable of providing music visualization effects, but they 
 # Demo
 
 ![Alt text](http://res.cloudinary.com/dvkxfgprc/image/upload/c_scale,w_440/v1511430406/giphy_8_ww3jdz.gif) 
+
 Example of one of the available audio visualization forms
 
 ![Alt text](https://www.instructables.com/files/deriv/FCA/4OIV/IFMRLF26/FCA4OIVIFMRLF26.ANIMATED.LARGE.gif)
