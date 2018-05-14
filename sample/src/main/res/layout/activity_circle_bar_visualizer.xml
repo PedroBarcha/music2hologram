@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/black">
+    android:layout_height="match_parent"
+    android:background="@color/black"> <!--needed, so the hologram effect works-->
+
+    <!--note that parts of the the actual position of the following objects aren't defined here,
+    but in BaseVisualizer childs (CircleBarVisualizer,LineVisualizer etc)-->
 
     <com.chibde.visualizer.CircleBarVisualizer
         android:id="@+id/visualizer1"
@@ -25,6 +27,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="130dp"
         android:layout_marginTop="8dp"
+        android:layout_marginRight="130dp"
         android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,9 +44,7 @@
         android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.chibde.visualizer.CircleBarVisualizer
         android:id="@+id/visualizer4"
@@ -51,6 +52,7 @@
         android:layout_height="140dp"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
         android:layout_marginTop="8dp"
         android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"

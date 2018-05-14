@@ -43,18 +43,19 @@ abstract public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getLayout() != 0) {
-
-//            View v = LayoutInflater.from(this).inflate(R.layout.ib, null);
-//            viewGroup.addView(v);
-
-        } else {
-            throw new NullPointerException("Provide layout file for the activity");
-        }
+//        if (getLayout() != 0) {
+//
+////            View v = LayoutInflater.from(this).inflate(R.layout.ib, null);
+////            viewGroup.addView(v);
+//
+//        } else {
+//            throw new NullPointerException("Provide layout file for the activity");
+//        }
         setActionBar();
         initialize();
     }
 
+    //check android ver and record permission
     private void initialize() {
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M
                 && checkSelfPermission(Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
@@ -70,6 +71,7 @@ abstract public class BaseActivity extends AppCompatActivity {
         }
     }
 
+    // music listening
     private void setPlayer() {
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
         init();

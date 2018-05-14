@@ -18,7 +18,6 @@ package com.chibde;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.media.MediaPlayer;
 import android.media.audiofx.Visualizer;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -31,7 +30,7 @@ import android.view.View;
  */
 
 abstract public class BaseVisualizer extends View {
-    protected byte[] bytes;
+    protected static byte[] bytes;
     protected Paint paint;
     protected Visualizer visualizer;
     protected int color = Color.BLUE;
@@ -99,13 +98,13 @@ abstract public class BaseVisualizer extends View {
         visualizer.setEnabled(true);
     }
 
-    public Visualizer getVisualizer() {
-        return visualizer;
-    }
-
-    public void setVisualizer (Visualizer visu) {
-        visualizer=visu;
-    }
+//    public Visualizer getVisualizer() {
+//        return visualizer;
+//    }
+//
+//    public void setVisualizer (Visualizer visu) {
+//        visualizer=visu;
+//    }
 
     protected abstract void init();
 //

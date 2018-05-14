@@ -34,7 +34,7 @@ import com.chibde.BaseVisualizer;
 public class CircleBarVisualizer extends BaseVisualizer {
     private float[] points;
     private Paint circlePaint;
-    private int radius;
+    private int radius=-1;
 
     public CircleBarVisualizer(Context context) {
         super(context);
@@ -60,6 +60,8 @@ public class CircleBarVisualizer extends BaseVisualizer {
 
     @Override
     protected void onDraw(Canvas canvas) {
+
+        //draw circle
         if (radius == -1) {
             radius = getHeight() < getWidth() ? getHeight() : getWidth();
             radius = (int) (radius * 0.65 / 2);
@@ -70,12 +72,15 @@ public class CircleBarVisualizer extends BaseVisualizer {
         }
         circlePaint.setColor(color);
         canvas.drawCircle(getWidth() / 2, getHeight() / 2, radius, circlePaint);
+
+        //bytes = values from the music visualizer (BaseVisualizer.setPlayer())
         if (bytes != null) {
             if (points == null || points.length < bytes.length * 4) {
                 points = new float[bytes.length * 4];
             }
             double angle = 0;
 
+            //the music visualizer bars are displayed along the circumference
             for (int i = 0; i < 120; i++, angle += 3) {
                 int x = (int) Math.ceil(i * 8.5);
                 int t = ((byte) (-Math.abs(bytes[x]) + 128)) * (canvas.getHeight() / 4) / 128;

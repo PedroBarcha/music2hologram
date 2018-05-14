@@ -16,10 +16,8 @@
 package com.chibde.audiovisualizer.sample.visualizer;
 
 import android.support.v4.content.ContextCompat;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.ImageButton;
 
 import com.chibde.audiovisualizer.sample.BaseActivity;
 import com.chibde.audiovisualizer.sample.R;
@@ -36,17 +34,18 @@ public class CircleBarVisualizerActivity extends BaseActivity {
         //Remove notification bar
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_circle_bar_visualizer);
+        //avoid sleeping
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON); //avois sleeping
+        setContentView(R.layout.activity_circle_bar_visualizer);
 
         CircleBarVisualizer circleBarVisualizer1 = findViewById(R.id.visualizer1);
         circleBarVisualizer1.setColor(ContextCompat.getColor(this, R.color.colorAccent));
-        circleBarVisualizer1.setPlayer();
+//        circleBarVisualizer1.setPlayer();
 
         CircleBarVisualizer circleBarVisualizer2 = findViewById(R.id.visualizer2);
         circleBarVisualizer2.setColor(ContextCompat.getColor(this, R.color.colorAccent));
-////        circleBarVisualizer2.setVisualizer(circleBarVisualizer1.getVisualizer());
+        circleBarVisualizer2.setPlayer();
 //
 ////
         CircleBarVisualizer circleBarVisualizer3 = findViewById(R.id.visualizer3);
@@ -68,8 +67,8 @@ public class CircleBarVisualizerActivity extends BaseActivity {
 //        circleBarVisualizer.visualizer.release();
 //    }
 
-    @Override
-    protected int getLayout() {
-        return R.layout.activity_circle_bar_visualizer;
-    }
+//    @Override
+//    protected int getLayout() {
+//        return R.layout.activity_circle_bar_visualizer;
+//    }
 }

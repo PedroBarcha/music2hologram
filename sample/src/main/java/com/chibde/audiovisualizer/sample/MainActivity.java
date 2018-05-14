@@ -44,10 +44,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.action_bar);
+        //set bottom toolbar
+        android.support.v7.widget.Toolbar toolbar = findViewById(R.id.action_bar);
         setSupportActionBar(toolbar);
 
-        bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavigationView);
+        //screens selectable by the toolbar are fragments, not activities
+        bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
 
             @Override
@@ -58,12 +60,10 @@ public class MainActivity extends AppCompatActivity {
                 if (item.getItemId() == R.id.hologramItem) {
                     transaction.replace(R.id.content, new HologramFragment()).commit();
                     return true;
-                }
-                else if (item.getItemId() == R.id.buildPyramidItem) {
+                } else if (item.getItemId() == R.id.buildPyramidItem) {
                     transaction.replace(R.id.content, new HowToFragment()).commit();
                     return true;
-                }
-                else if (item.getItemId() == R.id.codeItem) {
+                } else if (item.getItemId() == R.id.codeItem) {
                     transaction.replace(R.id.content, new CodeFragment()).commit();
                     return true;
                 }
@@ -72,6 +72,24 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //upper menu bar (currently has only share option)
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //use a switch here if eventually there is more than an option on the action bar
+
+        Intent myIntent = new Intent(Intent.ACTION_SEND);
+        myIntent.setType("text/plain");
+        String shareSub = "Hologram Music";
+        String shareBody = "Welcome to the future\n\nhttps://www.youtube.com/watch?v=ZZ5LpwO-An4";
+        myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
+        myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+
+        startActivity(Intent.createChooser(myIntent, "Share Our App"));
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
+    //one of these is called when a type of hologram is chosen in the Hologram Fragment
     public void line(View view) {
         startActivity(LineVisualizerActivity.class);
     }
@@ -96,25 +114,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, clazz));
     }
 
-    @Override
-    public  boolean onCreateOptionsMenu(Menu menu){
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.action_menu,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
+//    @Override
+//    public  boolean onCreateOptionsMenu(Menu menu){
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.action_menu,menu);
+//        return super.onCreateOptionsMenu(menu);
+//    }
 
-    public boolean onOptionsItemSelected(MenuItem item){
-        //use a switch here if eventually there is more than an option on the action bar
-
-        Intent myIntent = new Intent(Intent.ACTION_SEND);
-        myIntent.setType("text/plain");
-        String shareSub = "Hologram Music";
-        String shareBody = "Welcome to the future\n\nhttps://www.youtube.com/watch?v=ZZ5LpwO-An4";
-        myIntent.putExtra(Intent.EXTRA_SUBJECT,shareSub);
-        myIntent.putExtra(Intent.EXTRA_TEXT,shareBody);
-
-        startActivity(Intent.createChooser(myIntent,"Share Our App"));
-
-        return super.onOptionsItemSelected(item);
-    }
 }
