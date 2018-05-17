@@ -38,6 +38,15 @@ The complete step-by-step (along with the pyramid template) can be found in the 
   What you need.
 </p>
 
+# TODO
+- First screen isn't home
+- Part of the tutorial is missing
+- Coming back from hologram => crash
+- Only 1 out of the 4 visualizers works
+- Only 1 effect currently available
+- Can't distinguish which button is currently selected in the bottom bar
+- No threads right now
+
 License
 =======
 Copyright 2018 Pedro Barcha
